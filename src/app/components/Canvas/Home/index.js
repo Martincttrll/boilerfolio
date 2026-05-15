@@ -13,6 +13,7 @@ export default class Home {
       new THREE.BoxGeometry(2, 2, 2),
       new THREE.MeshBasicMaterial({ color: 0x00ffff })
     );
+        this.group.add(this.mesh);
   }
 
   update(scroll) {
